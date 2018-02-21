@@ -85,7 +85,7 @@ Any and all team member's may create a local clone.
    8. cd team-repo-name
    9. git remote -v                        // this shows that you are connected to your team's repo      
 
-### 7.b [optional] Make a change to your team's repository from a local repository:
+## 7.b [optional] Make and push a change from your local repository to your team's repository:
 
 Any and all team member's may make edits in this way.
 
