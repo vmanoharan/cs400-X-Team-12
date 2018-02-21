@@ -1,4 +1,6 @@
-# TODO
+# X-Team Exercise #2 TODO
+
+This document describes what X-team members must do to complete X-Team Exercise #2.  There is no need to edit or submit this file.
 
 ## 1. Create a GitHub repository for your team
 
@@ -30,9 +32,10 @@ This file is where you will document the team rules you agree to.  Please be sur
 This file is where you will document the coding style your team agrees to.  Please be sure to do the following for this document.
 
 1. Replace NN in the top heading with your X-team's number.
-2. 
-
-
+2. Document your team's opinion or philosophy regarding the value and use of style guides.
+3. Edit the Style Guide document so that it describes the Java coding style your team agrees to use for X-Team coding assignments.
+4. Document your team's naming conventions and provide examples.
+5. Add example comments and a brief statement of your team's commenting style.
 
 ## 3. Submit your work
 
