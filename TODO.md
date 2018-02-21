@@ -1,8 +1,30 @@
 # X-Team Exercise #2 TODO
 
-This document describes what X-team members must do to complete X-Team Exercise #2.  There is no need to edit or submit the TODO.md file.
+This document describes what X-team members must do to complete X-Team Exercise #2.  
 
-## 1. Create a GitHub repository for your team
+## 1. Create a GitHub account
+
+All team members must:
+
+* Create a GitHub account
+  1. Go to GitHub.com
+  2. Create a personal account using your wisc.edu email address
+  3. Record and remember your GitHub account name
+* Learn a few .md markup rules (https://guides.github.com/features/mastering-markdown/)
+* Help determine and draft the content for the exercise
+* Make at least one commit on your team's repository
+  1. Wait until someone from your team creates the repository (Step 2) and adds you as a Collaborator to that repository
+  2. Login to GitHub
+  3. Click link to your team's repository
+  4. Click link to one of the files.
+  5. Click the linke to edit that file.
+  6. Make your changes
+  7. Describe your changes in the Commit dialog at bottom of page
+  8. Commit your edit to your X-team's repository for this project.
+
+We will be able to review the commits to see who has commited each edit to the files.
+
+## 2. Create a GitHub repository for your team
 
 Only one team member must do this
 
@@ -12,16 +34,7 @@ Only one team member must do this
 4. Add each of your team's members (wisc.edu email account) to the list of members who can edit that repository
 3. Clone https://github.com/cs400-deppeler/super-octo-system repository to your X-team's repository
 
-## 2. Learn some simple markdown 
 
-All team members must:
-
-* Help draft the content for these documents
-* Login to GitHub
-* Edit at least one repository file.
-* Learn a few .md markup rules (https://guides.github.com/features/mastering-markdown/)
-
-We will review the commits to see who has commited edits to the files.
 
 ## 3. Update x_team_rules.md
 
