@@ -2,11 +2,52 @@
 
 This document describes what X-team members must do to complete X-Team Exercise #2.  
 
-## 1. Create a GitHub account
+## 1. Create a personal GitHub account
 
-All team members must:
+All Team Members must complete this step.
 
-* Create a GitHub account
+  1. Go to GitHub.com
+  2. Create a personal account using your wisc.edu email address
+  3. Record your GitHub account name and password.
+  4. Share your GitHub account name with your X-team members.
+
+## 2. Create a GitHub repository for your team
+
+Only one team member completes this step.
+
+  1. Login to GitHub with your wisc.edu GitHub account
+  2. Create a new public repository on that account
+  3. Enter name suggested by GitHub for your newly created repository as your repository's name
+  4. Enter cs400 X-Team as the description for this new repository
+  4. Add Collaborators.  Do the following for each member of your X-team
+     a. Click Settings
+     b. Click Collaborators
+     c. Add each team member's GitHub account name (or wisc.edu email) to the list of members who can edit that repository
+
+
+
+3. Clone https://github.com/cs400-deppeler/super-octo-system repository to your X-team's repository
+
+
+## 2. Clone a local copy of this repository
+
+All Team Members must complete this step
+
+   1. Login to CS Linux workstation
+   2. cd ~/private
+   3. mkdir cs400 (if you do not already have this subdirectory)
+   4. mkdir cs400/xteam
+   5. cd cs400/xteam
+   6. git init
+   7. git clone https://github.com/cs400-deppeler/super-octo-system
+   8. git remote add origin https://github.com/<team_members_account>/<xteam's github repository name>
+   9. git remote   (should repond with origin)
+
+
+## 2. Create a GitHub account
+
+All Team Members must complete this step.
+
   1. Go to GitHub.com
   2. Create a personal account using your wisc.edu email address
   3. Record and remember your GitHub account name
