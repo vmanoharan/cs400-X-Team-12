@@ -17,8 +17,11 @@ Only one team member must do this
 All team members must:
 
 * Help draft the content for these documents
+* Login to GitHub
+* Edit at least one repository file.
 * Learn a few .md markup rules (https://guides.github.com/features/mastering-markdown/)
-* Login and edit at least one of the repository files
+
+We will review the commits to see who has commited edits to the files.
 
 ## 3. Update x_team_rules.md
 
