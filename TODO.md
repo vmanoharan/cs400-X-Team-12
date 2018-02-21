@@ -27,7 +27,7 @@ Only one team member completes this step.
 
 ## 3. Clone a local copy of this repository
 
-### Create a local clone of this exercise
+### 3.a Create a local clone of this exercise
 
 One student must do this.  Other team members may do this if they wish to edit files from within Linux must complete this step
 
@@ -39,7 +39,7 @@ One student must do this.  Other team members may do this if they wish to edit f
    6. git init
    7. git clone https://github.com/cs400-deppeler/super-octo-system   THIS IS OUR REPO (students can't edit)
    
-### Copy files from your local repository to your teams repository
+### 3.b Copy files from your local repository to your teams repository
 
 One student must do this.  Other team members may do this if they wish to edit files from within Linux must complete this step
 
@@ -47,7 +47,7 @@ One student must do this.  Other team members may do this if they wish to edit f
    2. git remote
    3. git push -u origin master  (to copy local files to team's online repository)
    
-### To make a change to your team's repository:
+### 3.c To make a change to your team's repository:
 
 Edits may be made online, or from your local repository. These are instructions to make edits from your local repository.
 Any team member with a local repository may do this if they wish to edit files from within Linux must complete this step
