@@ -18,18 +18,20 @@ Only one team member completes this step.
   1. Login to GitHub with your wisc.edu GitHub account
   2. Create a new public repository on that account
   3. Enter name suggested by GitHub for your newly created repository as your repository's name
-  4. Enter cs400 X-Team as the description for this new repository
-  5. Add Collaborators.  Do the following for each member of your X-team
+  4. Share the name of this repository with all x-team members
+  5. Enter "cs400 X-Team NN" as the description for this new repository.  Replace NN with your X-Team number.
+  6. Add Collaborators.  
      a. Click Settings
      b. Click Collaborators
-     c. Add each team member's GitHub account name (or wisc.edu email) to the list of members who can edit that repository
-  6. Share the name of this repository with all x-team members
+     c. For each member of your X-team
+        i. Enter team member's GitHub account name (or wisc.edu email)
+        ii. Click Add Collaborator
 
 ## 3. Clone a local copy of this repository
 
 ### 3.a Create a local clone of this exercise
 
-One student must do this.  Other team members may do this if they wish to edit files from within Linux must complete this step
+One student must do this.  Other team members may do this if they wish to edit files from a Linux terminal.
 
    1. Login to CS Linux workstation
    2. cd ~/private
@@ -41,7 +43,7 @@ One student must do this.  Other team members may do this if they wish to edit f
    
 ### 3.b Copy files from your local repository to your teams repository
 
-One student must do this.  Other team members may do this if they wish to edit files from within Linux must complete this step
+One student must do this.  Other team members may do this if they wish to be able to edit files locally and push their changes to their team's repository.
 
    1. git remote add origin https://github.com/<team_members_account>/<xteam's github repository name>   THIS IS YOUR X-TEAM'S REPO
    2. git remote
@@ -49,7 +51,8 @@ One student must do this.  Other team members may do this if they wish to edit f
    
 ### 3.c To make a change to your team's repository:
 
-Edits may be made online, or from your local repository. These are instructions to make edits from your local repository.
+Edits may be made online, or from your local repository if you created and configured one. 
+These are instructions to make edits from your local repository.
 Any team member with a local repository may do this if they wish to edit files from within Linux must complete this step
 
    1. git pull origin master (to make sure you have latest online commits)
@@ -62,7 +65,7 @@ Any team member with a local repository may do this if they wish to edit files f
 
 All Team Members must complete this step.
 
-  1. Learn a few .md markup rules (https://guides.github.com/features/mastering-markdown/)
+  1. Learn a few .md file markdown rules (https://guides.github.com/features/mastering-markdown/)
   2. Help determine and draft the content for the exercise
   3. Make at least one commit on your team's repository from GitHub
      1. Login to GitHub
@@ -77,29 +80,29 @@ We will be able to review the commits to see who has commited each edit to the f
 
 ## 5. Update x_team_rules.md
 
-All team members must help draft content and edit this file.  This file is where you will document the team rules you agree to.  Please be sure to do the following for this document.
+All team members must help draft content and edit files.  The x_team_rules.md file is where you will document the team rules you agree to.  Please be sure to do the following for this document.
 
 1. Replace NN in the top heading with your X-team's number.
-2. Edit this the rules document so that it establishes some basic rules for your X-team.
+2. Edit x_team_rules.md document the agreed upon rules for your X-team.
 
 ## 6. Update x_style_guide.md
 
-This file is where you will document the coding style your team agrees to.  Please be sure to do the following for this document.
+All team members must help draft content and edit files.  The x_style_guide.md file is where you will document the the coding style rules your team agrees to follow.  Please be sure to do the following for this document.
 
 1. Replace NN in the top heading with your X-team's number.
 2. Document your team's opinion or philosophy regarding the value and use of style guides.
-3. Edit the Style Guide document so that it describes the Java coding style your team agrees to use for X-Team coding assignments.
+3. Edit the x_style_guide.md document so that it describes the Java coding style your team agrees to use for X-Team coding assignments.
 4. Document your team's naming conventions and provide examples.
 5. Add example comments and a brief statement of your team's commenting style.
 
 ## 7. Update your README.md file
 
-1. Replace the title repository name with the name of your repository
-2. Answer the questions in the README.md file for your team
+1. Replace the title (top line of README.md) with the name of your X-team's repository.
+2. Answer the questions in the README.md file for your team.
 
 ## 8. Submit your work
 
-Submit these files to Canvas for your team for this assignment.   The final submission must contain all files.
+Submit these files to Canvas for your team for this assignment.   The final submission must contain all files in the same submission.
 
 1. README.md
 2. x_team_rules.md
