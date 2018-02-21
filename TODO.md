@@ -17,7 +17,7 @@ Only one team member completes this step.
 
   1. Login to GitHub with your wisc.edu GitHub account
   2. Create a new public repository on that account
-  3. Enter name suggested by GitHub for your newly created repository as your repository's name
+  3. Enter name suggested by GitHub for your newly created repository as your repository's name, ie.  your-repo-name
   4. Share the name of this repository with all x-team members
   5. Enter "cs400 X-Team NN" as the description for this new repository.  Replace NN with your X-Team number.
   6. Add Collaborators.  
@@ -27,29 +27,53 @@ Only one team member completes this step.
         i. Enter team member's GitHub account name (or wisc.edu email)
         ii. Click Add Collaborator
 
-## 3. Clone a local copy of this repository
+## 3. Clone a local copy of the super-octo-system repository
 
-### 3.a Create a local clone of this exercise
+Note: make the following replacements in the instructions that follow based on the repository made in the previous step:
 
-One student must do this.  Other team members may do this if they wish to edit files from a Linux terminal.
+* replace _github-account-name_ the name of the GitHub account created by your teammate
+* replace _team-repo-name_ with the name of the repository that your teammate created
 
-   1. Login to CS Linux workstation
+### 3.a Create a local clone, change name, and push original files to your team's GitHub repository
+
+One student must do this. 
+
+   1. Login to a CS Linux workstation
+   2. cd ~/private
+   3. mkdir cs400                         // if you do not already have this subdirectory
+   4. mkdir cs400/xteam
+   5. cd cs400/xteam
+   6. git clone https://github.com/cs400-deppeler/super-octo-system
+   7. mv super-octo-system team-repo-name
+   8. cd team-repo-name
+   9. git remote -v                        // this shows our GitHub repo that you can not edit
+   10. git remote set-url https://github.com/github-account-name/team-repo-name
+   11. git remote -v                        // now your local repository is connected to your team's repo
+   12. git push -u origin master           // copy local files to team's GitHub repository
+      
+### 3.b Create a local clone of your team's repository
+
+Any team member can now make a local clone of the team's repository.
+
+   1. Login to a CS Linux workstation
    2. cd ~/private
    3. mkdir cs400 (if you do not already have this subdirectory)
    4. mkdir cs400/xteam
    5. cd cs400/xteam
-   6. git init
-   7. git clone https://github.com/cs400-deppeler/super-octo-system   THIS IS OUR REPO (students can't edit)
-   
-### 3.b Copy files from your local repository to your teams repository
+   6. git clone https://github.com/github-account-name/team-repo-name   
+   7. cd <team-repo-name>
 
-One student must do this.  Other team members may do this if they wish to be able to edit files locally and push their changes to their team's repository.
+### 3.c Make a change to your team's repository from a local repository:
 
-   1. git remote add origin https://github.com/<team_members_account>/<xteam's github repository name>   THIS IS YOUR X-TEAM'S REPO
-   2. git remote
-   3. git push -u origin master  (to copy local files to team's online repository)
-   
-### 3.c To make a change to your team's repository:
+   1. Login to a CS Linux workstation
+   2. cd ~/private/cs400/xteam/team-repo-name
+   3. git pull origin master                       // get all edits from team's GitHub repo
+   4. edit the files
+   5. git add .
+   6. git commit -m "description of your edit"
+   7. git push -u origin master                    // put all of your edits into team's GitHub repo
+
+### 3.d Make a change to your team's repository from GitHub:
 
 Edits may be made online, or from your local repository if you created and configured one. 
 These are instructions to make edits from your local repository.
