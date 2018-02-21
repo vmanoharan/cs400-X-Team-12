@@ -22,14 +22,14 @@ All team members must:
 
 This file is where you will document the team rules you agree to.  Please be sure to do the following for this document.
 
-1. Add your X-team group number to the top heading for the document
-2. 
+1. Replace NN in the top heading with your X-team's number.
+2. Edit this the rules document so that it establishes some basic rules for your X-team.
 
 ### x_style_guide.md
 
 This file is where you will document the coding style your team agrees to.  Please be sure to do the following for this document.
 
-1. Add your X-team group number to the top heading for the document
+1. Replace NN in the top heading with your X-team's number.
 2. 
 
 
