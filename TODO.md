@@ -29,6 +29,8 @@ Only one team member completes this step.
 
 ## 3. Import super-octo-system repository to your team's GitHub repository
 
+Only one team member completes this step.
+
 Note: make the following replacements in the instructions that follow based on the repository made in the previous step:
 
 * replace _github-account-name_ the name of the GitHub account created by your teammate
@@ -48,7 +50,7 @@ Note: make the following replacements in the instructions that follow based on t
 
 ## 3.a [optional] Create a local clone of your team's GitHub repository
 
-Any team member may do this. 
+Any and all team member's may create a local clone.
 
    1. Login to a CS Linux workstation
    2. cd ~/private
@@ -61,7 +63,7 @@ Any team member may do this.
 
 ### 3.b [optiona] Make a change to your team's repository from a local repository:
 
-Any team member may do this
+Any and all team member's may make edits in this way.
 
    1. Complete step 4.a if you have not
    2. cd ~/private/cs400/xteam/team-repo-name
