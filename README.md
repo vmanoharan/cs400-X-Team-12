@@ -12,7 +12,7 @@
 3. x_team_rules.md - documents the rules for your team
 4. x_style_guide.md - documents coding styles your team will use for X-team coding projects
 
-## File to Submit
+## Files to Submit
 
 1. EDIT FILES AS DESCRIBED IN TODO.md
 2. Submit the finished version of the following files to Canvas:
