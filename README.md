@@ -1,13 +1,9 @@
 # super-octo-system
 
-1. Go 
-1. Add your X-team group number as a new team in the 
+## Table of Contents
 
-* Students will create their own repository
-* Clone this repository
-* Learn a few .md markup rules
-* Draft their own team rules
-* Draft their own style guide
-* Submit their *x_team_rules.md* and *x_style_guide.md* files to Canvas before the due date and time
+1. README.md (this file)
+2. TODO.md (instructions for what to do for this assignment)
+3. team_rules.md (documents the rules for your team)
+4. team_style_guide.md (documents coding styles)
 
-(expected height is within 2*log2N)
