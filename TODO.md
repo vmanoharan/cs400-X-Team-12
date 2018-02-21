@@ -19,19 +19,17 @@ Only one team member completes this step.
   2. Create a new public repository on that account
   3. Enter name suggested by GitHub for your newly created repository as your repository's name
   4. Enter cs400 X-Team as the description for this new repository
-  4. Add Collaborators.  Do the following for each member of your X-team
+  5. Add Collaborators.  Do the following for each member of your X-team
      a. Click Settings
      b. Click Collaborators
      c. Add each team member's GitHub account name (or wisc.edu email) to the list of members who can edit that repository
+  6. Share the name of this repository with all x-team members
 
+## 3. Clone a local copy of this repository
 
+### Create a local clone of this exercise
 
-3. Clone https://github.com/cs400-deppeler/super-octo-system repository to your X-team's repository
-
-
-## 2. Clone a local copy of this repository
-
-All Team Members must complete this step
+One student must do this.  Other team members may do this if they wish to edit files from within Linux must complete this step
 
    1. Login to CS Linux workstation
    2. cd ~/private
@@ -39,54 +37,52 @@ All Team Members must complete this step
    4. mkdir cs400/xteam
    5. cd cs400/xteam
    6. git init
-   7. git clone https://github.com/cs400-deppeler/super-octo-system
-   8. git remote add origin https://github.com/<team_members_account>/<xteam's github repository name>
-   9. git remote   (should repond with origin)
+   7. git clone https://github.com/cs400-deppeler/super-octo-system   THIS IS OUR REPO (students can't edit)
+   
+### Copy files from your local repository to your teams repository
 
+One student must do this.  Other team members may do this if they wish to edit files from within Linux must complete this step
 
-## 2. Create a GitHub account
+   1. git remote add origin https://github.com/<team_members_account>/<xteam's github repository name>   THIS IS YOUR X-TEAM'S REPO
+   2. git remote
+   3. git push -u origin master  (to copy local files to team's online repository)
+   
+### To make a change to your team's repository:
+
+Edits may be made online, or from your local repository. These are instructions to make edits from your local repository.
+Any team member with a local repository may do this if they wish to edit files from within Linux must complete this step
+
+   1. git pull origin master (to make sure you have latest online commits)
+   2. Edit the local file
+   3. git add .   (to stage your changes)
+   4. git commit -m "describe your changes"
+   5. git push origin master   (to upload your edits to your team's GitHub repository so other team members will see them)   
+
+## 4. Learn some markdown and edit a file
 
 All Team Members must complete this step.
 
-  1. Go to GitHub.com
-  2. Create a personal account using your wisc.edu email address
-  3. Record and remember your GitHub account name
-* Learn a few .md markup rules (https://guides.github.com/features/mastering-markdown/)
-* Help determine and draft the content for the exercise
-* Make at least one commit on your team's repository
-  1. Wait until someone from your team creates the repository (Step 2) and adds you as a Collaborator to that repository
-  2. Login to GitHub
-  3. Click link to your team's repository
-  4. Click link to one of the files.
-  5. Click the linke to edit that file.
+  1. Learn a few .md markup rules (https://guides.github.com/features/mastering-markdown/)
+  2. Help determine and draft the content for the exercise
+  3. Make at least one commit on your team's repository from GitHub
+     1. Login to GitHub
+     2. Click link to your team's repository
+     3. Click link to one of the files.
+     4. Click the pencil icon [link] to edit that file.
   6. Make your changes
   7. Describe your changes in the Commit dialog at bottom of page
   8. Commit your edit to your X-team's repository for this project.
 
 We will be able to review the commits to see who has commited each edit to the files.
 
-## 2. Create a GitHub repository for your team
+## 5. Update x_team_rules.md
 
-Only one team member must do this
-
-1. Login to GitHub with your wisc.edu GitHub account
-2. Create a new public repository on that account
-3. Accept the default name suggested by GitHub for your newly created repository
-4. Add each of your team's members as Collaborators to this repository
-   a. Click Settings
-   b. Click Collaborators
-   c. Add each team member's GitHub account name (or wisc.edu email) to the list of members who can edit that repository
-3. Clone https://github.com/cs400-deppeler/super-octo-system repository to your X-team's repository
-
-
-## 3. Update x_team_rules.md
-
-This file is where you will document the team rules you agree to.  Please be sure to do the following for this document.
+All team members must help draft content and edit this file.  This file is where you will document the team rules you agree to.  Please be sure to do the following for this document.
 
 1. Replace NN in the top heading with your X-team's number.
 2. Edit this the rules document so that it establishes some basic rules for your X-team.
 
-## 4. Update x_style_guide.md
+## 6. Update x_style_guide.md
 
 This file is where you will document the coding style your team agrees to.  Please be sure to do the following for this document.
 
@@ -96,12 +92,12 @@ This file is where you will document the coding style your team agrees to.  Plea
 4. Document your team's naming conventions and provide examples.
 5. Add example comments and a brief statement of your team's commenting style.
 
-## 4. Update your README.md file
+## 7. Update your README.md file
 
 1. Replace the title repository name with the name of your repository
 2. Answer the questions in the README.md file for your team
 
-## 5. Submit your work
+## 8. Submit your work
 
 Submit these files to Canvas for your team for this assignment.   The final submission must contain all files.
 
