@@ -28,12 +28,14 @@ We will be able to review the commits to see who has commited each edit to the f
 
 Only one team member must do this
 
-1. Create a GitHub account with your wisc.edu email 
+1. Login to GitHub with your wisc.edu GitHub account
 2. Create a new public repository on that account
 3. Accept the default name suggested by GitHub for your newly created repository
-4. Add each of your team's members (wisc.edu email account) to the list of members who can edit that repository
+4. Add each of your team's members as Collaborators to this repository
+   a. Click Settings
+   b. Click Collaborators
+   c. Add each team member's GitHub account name (or wisc.edu email) to the list of members who can edit that repository
 3. Clone https://github.com/cs400-deppeler/super-octo-system repository to your X-team's repository
-
 
 
 ## 3. Update x_team_rules.md
