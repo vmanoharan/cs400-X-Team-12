@@ -27,45 +27,43 @@ Only one team member completes this step.
         i. Enter team member's GitHub account name (or wisc.edu email)
         ii. Click Add Collaborator
 
-## 3. Clone a local copy of the super-octo-system repository
+## 3. Import super-octo-system repository to your team's GitHub repository
 
 Note: make the following replacements in the instructions that follow based on the repository made in the previous step:
 
 * replace _github-account-name_ the name of the GitHub account created by your teammate
 * replace _team-repo-name_ with the name of the repository that your teammate created
 
-### 3.a Create a local clone, change name, and push original files to your team's GitHub repository
+   1. Login to GitHub.
+   2. Click link to go to the repository your team's repository.
+   3. Click the + in the upper right hand corner of your team's repository page.
+   4. Click Import repository.
+   5. Type our repo's URL: https://github.com/cs400-deppeler/super-octo-system
+   6. Type your team-repo-name in the new 
+   7. Specify Public
+   8. Review information and click Begin Inport
+   9. Wait for import to complete (may take a few minutes)
+   
+   For more information: https://help.github.com/articles/importing-a-repository-with-github-importer/
 
-One student must do this. 
+## 3.a [optional] Create a local clone of your team's GitHub repository
+
+Any team member may do this. 
 
    1. Login to a CS Linux workstation
    2. cd ~/private
    3. mkdir cs400                         // if you do not already have this subdirectory
    4. mkdir cs400/xteam
    5. cd cs400/xteam
-   6. git clone https://github.com/cs400-deppeler/super-octo-system
-   7. mv super-octo-system team-repo-name
+   6. git clone https://github.com/github-account-name/team-repo-name
    8. cd team-repo-name
-   9. git remote -v                        // this shows our GitHub repo that you can not edit
-   10. git remote set-url https://github.com/github-account-name/team-repo-name
-   11. git remote -v                        // now your local repository is connected to your team's repo
-   12. git push -u origin master           // copy local files to team's GitHub repository
-      
-### 3.b Create a local clone of your team's repository
+   9. git remote -v                        // this shows that you are connected to your team's repo      
 
-Any team member can now make a local clone of the team's repository.
+### 3.b [optiona] Make a change to your team's repository from a local repository:
 
-   1. Login to a CS Linux workstation
-   2. cd ~/private
-   3. mkdir cs400 (if you do not already have this subdirectory)
-   4. mkdir cs400/xteam
-   5. cd cs400/xteam
-   6. git clone https://github.com/github-account-name/team-repo-name   
-   7. cd <team-repo-name>
+Any team member may do this
 
-### 3.c Make a change to your team's repository from a local repository:
-
-   1. Login to a CS Linux workstation
+   1. Complete step 4.a if you have not
    2. cd ~/private/cs400/xteam/team-repo-name
    3. git pull origin master                       // get all edits from team's GitHub repo
    4. edit the files
@@ -73,19 +71,7 @@ Any team member can now make a local clone of the team's repository.
    6. git commit -m "description of your edit"
    7. git push -u origin master                    // put all of your edits into team's GitHub repo
 
-### 3.d Make a change to your team's repository from GitHub:
-
-Edits may be made online, or from your local repository if you created and configured one. 
-These are instructions to make edits from your local repository.
-Any team member with a local repository may do this if they wish to edit files from within Linux must complete this step
-
-   1. git pull origin master (to make sure you have latest online commits)
-   2. Edit the local file
-   3. git add .   (to stage your changes)
-   4. git commit -m "describe your changes"
-   5. git push origin master   (to upload your edits to your team's GitHub repository so other team members will see them)   
-
-## 4. Learn some markdown and edit a file
+## 4. Learn some markdown and edit a file on GitHub.com
 
 All Team Members must complete this step.
 
