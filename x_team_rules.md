@@ -1,11 +1,14 @@
-# Our X-Team Rules
+# X-Team NN Rules
 
-These rules will establish how our team will assign tasks,
+1. TODO replace NN with your X-team's number
+2. Edit this document so that it establishes some basic rules for your X-team.
+
+These rules establish how our team will assign tasks,
 track progress on each task, and communicate with each other 
 when a member is unable to complete a task that has been assigned to that member.
 
-This will help us each understand the team's expectations,
-and hopefully lead to productive team work with fewer hard feelings
+This document helps individual members understand the team's expectations,
+and will hopefully lead to productive team work with fewer conflicts
 and missed deadlines.
 
 ## How we will assign (and reassign) tasks
