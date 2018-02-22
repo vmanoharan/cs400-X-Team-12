@@ -8,30 +8,31 @@ All Team Members must complete this step.
 
   1. Go to GitHub.com
   2. Create a personal account using your wisc.edu email address
-  3. Record your GitHub account name and password.
-  4. Share your GitHub account name with your X-team members.
+  3. Record your GitHub account username and password.
+  4. Share your GitHub account username with your X-team members.
 
 ## 2. Create a GitHub repository for your team
 
 Only one team member completes this step.
 
-  1. Login to GitHub with your wisc.edu GitHub account
-  2. Click [Start a Project]
-  3. Enter name suggested by GitHub for your newly created repository as your repository's name, ie.  your-repo-name
+  1. Login to GitHub with your wisc.edu GitHub account.
+  2. Click the green [New Repository] link.
+  3. Enter the name suggested by GitHub for your newly created repository as your repository's name, ie.  your-repo-name
   4. Enter "cs400 X-Team NN" as the description for this new repository.  Replace NN with your X-Team number.
-  5. Select Public
-  6. Click [Import Code]
-  7. Enter the existing (old) repository name: https://github.com/cs400-deppeler/super-octo-system
-  8. Click [Begin Import] and wait for import to complete
+  5. Select Public.
+  6. Click [Create repository].
+  7. Scroll to bottom of Quick Setup page and click [Import Code].
+  7. Enter the existing (old) repository's clone URL: https://github.com/cs400-deppeler/super-octo-system
+  8. Click [Begin Import] and wait for import to complete.
   9. Click the link to your newly created repository.
-  10. Add Collaborators.  
+  10. Add Collaborators to your newly created repository.  
      a. Click Settings
      b. Click Collaborators
      c. For each member of your X-team
-        i. Enter team member's GitHub account name (or wisc.edu email)
+        i. Enter your team member's GitHub account username
         ii. Click Add Collaborator
         
-  11. Share the name of this repository with all x-team members
+  11. Share the name of this repository with all of your x-team members
 
 ## 3. Learn some markdown and edit a file on GitHub.com
 
@@ -82,14 +83,14 @@ Any and all team member's may create a local clone.
    4. mkdir cs400/xteam
    5. cd cs400/xteam
    6. git clone https://github.com/github-account-name/team-repo-name
-   8. cd team-repo-name
-   9. git remote -v                        // this shows that you are connected to your team's repo      
+   7. cd team-repo-name
+   8. git remote -v                        // this shows that you are connected to your team's repo      
 
 ## 7.b [optional] Make and push a change from your local repository to your team's repository:
 
 Any and all team member's may make edits in this way.
 
-   1. Complete step 4.a if you have not
+   1. Complete step 7.a if you have not
    2. cd ~/private/cs400/xteam/team-repo-name
    3. git pull origin master                       // get all edits from team's GitHub repo
    4. edit the files
