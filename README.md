@@ -1,6 +1,6 @@
 # super-octo-system
 
-1. Replace the repository name in the title above with the name of your repository
+1. Replace the repository name in the title above with the name of your team's GitHub repository for this exercise.
 2. Answer these questions
    * What are the GitHub usernames of your team members?
        * GitHub username 1:
@@ -14,7 +14,7 @@
 ## Table of Contents
 
 1. TODO.md - contains instructions for what to do for this assignment
-2. README.md - overview of files in this repository
+2. README.md - overview of files in this repository (this file)
 3. x_team_rules.md - documents the rules for your team
 4. x_style_guide.md - documents coding styles your team will use for X-team coding projects
 
