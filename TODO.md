@@ -22,10 +22,10 @@ Only one team member completes this step.
   5. Select Public.
   6. Click [Create repository].
   7. Scroll to bottom of Quick Setup page and click [Import Code].
-  7. Enter the existing (old) repository's clone URL: https://github.com/cs400-deppeler/super-octo-system
-  8. Click [Begin Import] and wait for import to complete.
-  9. Click the link to your newly created repository.
-  10. Add Collaborators to your newly created repository.  
+  8. Enter the existing (old) repository's clone URL: https://github.com/cs400-deppeler/super-octo-system
+  9. Click [Begin Import] and wait for import to complete.
+  10. Click the link to your newly created repository.
+  11. Add Collaborators to your newly created repository.  
      a. Click Settings
      b. Click Collaborators
      c. For each member of your X-team
@@ -70,6 +70,8 @@ All team members must help draft content and edit files.  The x_style_guide.md f
 
 ## 6. Update your README.md file
 
+Any team member may complete this step.
+
 1. Replace the title (top line of README.md) with the name of your X-team's repository.
 2. Answer the questions in the README.md file for your team.
 
@@ -88,7 +90,7 @@ Any and all team member's may create a local clone.
 
 ## 7.b [optional] Make and push a change from your local repository to your team's repository:
 
-Any and all team member's may make edits in this way.
+Any and all team member's may make edits in their local repository and commit to the team repository in this way.
 
    1. Complete step 7.a if you have not
    2. cd ~/private/cs400/xteam/team-repo-name
