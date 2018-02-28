@@ -11,7 +11,7 @@ All Team Members must complete this step.
   3. Record your GitHub account username and password.
   4. Share your GitHub account username with your X-team members.
 
-## 2. Create a GitHub repository for your team
+## 2. Create a GitHub repository for your team (PLEASE DO NOT FORK THIS REPOSITORY)
 
 Only one team member completes this step.
 
