@@ -21,9 +21,9 @@ and missed deadlines.
 
 
 ## How we will back up each other to ensure that deadlines are not missed
+We would communicate frequently, update progress to team members and set up meeting time.
 
 
 
 
 
-uou
