@@ -6,7 +6,7 @@ CS 400 Team 12
        * GitHub username 1: vmanoharan
        * GitHub username 2: nuratavatar
        * GitHub username 3: YumingMa16
-       * GitHub username 4:
+       * GitHub username 4: joshuawisc
        * GitHub username 5:
    * When did you complete this exercise? 
    * How long did it take your team to complete this exercise? 
