@@ -5,7 +5,7 @@ CS 400 Team 12
    * What are the GitHub usernames of your team members?
        * GitHub username 1: vmanoharan
        * GitHub username 2: nuratavatar
-       * GitHub username 3:
+       * GitHub username 3: YumingMa16
        * GitHub username 4:
        * GitHub username 5:
    * When did you complete this exercise? 
