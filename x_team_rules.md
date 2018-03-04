@@ -17,7 +17,7 @@ and missed deadlines.
 
 
 ## How will we communicate difficulties with a task assigned to us
-Message it in group chat.
+* Message it in group chat.
 
 
 ## How we will back up each other to ensure that deadlines are not missed
