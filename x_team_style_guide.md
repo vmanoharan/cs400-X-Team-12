@@ -6,7 +6,7 @@
 
 <brief statement describing your team's naming conventions>
 ### Examples
-<<<<<<< HEAD
+
 * interfaces: Captalize each word within the name no spaces (ex. SearchTreeADT)
 
 * classes: Captalize each word within the name no spaces (ex. BalancedSearchTree)
@@ -19,7 +19,7 @@ descriptive word choice (ex. numNodes)
 * methods: camelCase and underscore basis (ex. isEmpty)
 
 * parameters: camelCase with descriptive word choices
-=======
+
 * interfaces
   Captalize each word within the name no spaces
 * classes
