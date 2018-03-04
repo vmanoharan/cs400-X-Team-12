@@ -50,8 +50,15 @@ descriptive word choice (ex. numNodes)
 * constructors
 * methods
 * coding style (brackets, horizontal, and vertical spacing) for:
-  Open curly brackets and close ones right under the 
+  Open curly brackets and close ones right under the if, while, ect.
+  all the condtions for following have a space between each word, variable, <,>,==, ect.
+  the contents of the if, while, ect. should be 4 spaces or tab over.
+  all contents of the if statment are in the line following the bracket
   * if statements
+    if(x == 5)
+    {
+      ...
+    }
   * switch statement
   * while loops
   * for loops
