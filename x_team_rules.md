@@ -16,8 +16,8 @@ and missed deadlines.
 * Use tools on the spreadsheet to keep people up to date on tasks that have been completed (i.e. fill cells).
 
 
-## How will will communicate difficulties with a task assigned to us
-
+## How will we communicate difficulties with a task assigned to us
+Message it in group chat.
 
 
 ## How we will back up each other to ensure that deadlines are not missed
@@ -26,3 +26,4 @@ and missed deadlines.
 
 
 
+uou
