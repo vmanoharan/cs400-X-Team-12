@@ -20,14 +20,17 @@ descriptive word choice (ex. numNodes)
 
 * methods
   Camel and for tests we do have underscores
+  
     public void search() throws Exception
     {
     ...
     }
+    
     public void getHeight() throws Exception
     {
     ...
     }
+    
     public void test01_Height_On_Empty_Tree()
     {
     ...
