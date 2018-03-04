@@ -16,18 +16,8 @@
 * fields: No underscores, first word lowercase, the rest capitalize the first letter with 
 descriptive word choice (ex. numNodes)
 
-* methods: camelCase and underscore basis (ex. isEmpty)
+* parameters: camelCase or lower case with descriptive word choices (ex. item or currentNode)
 
-* parameters: camelCase with descriptive word choices
-
-* interfaces
-  Captalize each word within the name no spaces
-* classes
-  Captalize each word within the name no spaces
-* exception types
-  Captalize each word within the name no spaces
-* fields
-  No underscores, first word lowercase, the rest capitalize the first letter with descriptive word choice
 * methods
   Camel and for tests we do have underscores
     public void search() throws Exception
@@ -42,15 +32,12 @@ descriptive word choice (ex. numNodes)
     {
     ...
     }
-* parameters
-  camel case with descriptive word choices
->>>>>>> 94d81dec2404e461450ec26148c6d177b86b973e
-* local variables
-  camel case
-* instance constants
-  All capitalized letters
-* class constants
-  All capitalized letters
+
+* local variables: camelCase (ex. numNodes, root)
+
+* instance constants: All capitalized letters (CONSTANT)
+
+* class constants: All capitalized letters (CONSTANT)
 
 ## Commenting style for public and private members of a class or interface:
 
