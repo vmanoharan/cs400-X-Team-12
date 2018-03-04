@@ -49,9 +49,17 @@ descriptive word choice (ex. numNodes)
 ### Examples
 
 * classes
+  according to javadoc
+  /** 
+  * ...
+  */
 * fields
+  double slash for fields
+  int size; //size of tree
 * constructors
+  according to javadoc
 * methods
+  according to javadoc
 * coding style (brackets, horizontal, and vertical spacing) for:
   Open curly brackets and close ones right under the if, while, ect.
   all the condtions for following have a space between each word, variable, <,>,==, ect.
