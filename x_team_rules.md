@@ -9,11 +9,11 @@ and will hopefully lead to productive team work with fewer conflicts
 and missed deadlines.
 
 ## How we will assign (and reassign) tasks
-
+* Use a spreadsheet on google docs.
 
 
 ## How will we will track progress (and follow-up) on completion of tasks
-
+* Use tools on the spreadsheet to keep people up to date on tasks that have been completed (i.e. fill cells).
 
 
 ## How will will communicate difficulties with a task assigned to us
