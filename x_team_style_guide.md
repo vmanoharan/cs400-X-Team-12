@@ -15,7 +15,19 @@
 * fields
   No underscores, first word lowercase, the rest capitalize the first letter with descriptive word choice
 * methods
-  Camel and underscore basis
+  Camel and for tests we do have underscores
+    public void search() throws Exception
+    {
+    ...
+    }
+    public void getHeight() throws Exception
+    {
+    ...
+    }
+    public void test01_Height_On_Empty_Tree()
+    {
+    ...
+    }
 * parameters
   camel case with descriptive word choices
 * local variables
