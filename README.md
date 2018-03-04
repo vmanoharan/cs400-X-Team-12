@@ -7,7 +7,7 @@ CS 400 Team 12
        * GitHub username 2: nuratavatar
        * GitHub username 3: YumingMa16
        * GitHub username 4: joshuawisc
-       * GitHub username 5: Yuxuan Liu
+       * GitHub username 5: camppp
    * When did you complete this exercise? Sunday 3/4
    * How long did it take your team to complete this exercise? ~1 hour
 
